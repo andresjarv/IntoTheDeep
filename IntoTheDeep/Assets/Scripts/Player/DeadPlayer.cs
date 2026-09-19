@@ -11,14 +11,14 @@ public class DeadPlayer : MonoBehaviour
     {
         Debug.Log("¡El jugador ha muerto! Avisando al Manager...");
 
-        if (gameOverManager != null)
-        {
-            // Le pasamos toda la responsabilidad de apagar scripts y mostrar UI al Manager
-            gameOverManager.TriggerGameOver();
-        }
-        else
-        {
-            Debug.LogError("¡Cuidado! No has asignado el GameOverManager en el inspector del Player.");
-        }
+        //if (gameOverManager != null)
+        //{
+        //    // Le pasamos toda la responsabilidad de apagar scripts y mostrar UI al Manager
+        //    gameOverManager.TriggerGameOver();
+        //}
+        //else
+        //{
+        //    Debug.LogError("¡Cuidado! No has asignado el GameOverManager en el inspector del Player.");
+        //}
     }
 }
